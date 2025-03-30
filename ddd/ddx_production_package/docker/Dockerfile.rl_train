@@ -1,0 +1,13 @@
+# Dockerfile for RL Training
+FROM python:3.10-slim
+
+WORKDIR /ddx
+RUN apt-get update && apt-get install -y git
+
+# Install dependencies
+RUN pip install --no-cache-dir stable-baselines3 torch torchvision torchaudio onnx onnxruntime gym numpy
+
+COPY rl_train_master.py ./
+COPY ddx_trading_env.py ./
+
+CMD ["python3", "rl_train_master.py", "--episodes", "50000", "--model_out", "ddx_model.onnx"]

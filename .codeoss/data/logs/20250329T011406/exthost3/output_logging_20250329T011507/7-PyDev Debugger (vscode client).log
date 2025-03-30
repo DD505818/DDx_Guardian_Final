@@ -1,0 +1,8 @@
+Activating PyDev Debugger extension.
+License seems invalid. Error: ENOENT: no such file or directory, open '/home/soflyy_cash/.pydevd_vscode/pydev_debugger_vscode.license'
+    ENOENT: no such file or directory, open '/home/soflyy_cash/.pydevd_vscode/pydev_debugger_vscode.license'
+    Error: ENOENT: no such file or directory, open '/home/soflyy_cash/.pydevd_vscode/pydev_debugger_vscode.license'
+        at Object.readFileSync (node:fs:448:20)
+        at Z.<anonymous> (/home/soflyy_cash/.codeoss/extensions/fabioz.vscode-pydev-python-debugger-0.1.0-universal/out/extension.js:22:1474)
+        at Generator.next (<anonymous>)
+        at c (/home/soflyy_cash/.codeoss/extensions/fabioz.vscode-pydev-python-debugger-0.1.0-universal/out/extension.js:1:916)

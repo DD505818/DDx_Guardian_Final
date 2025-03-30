@@ -1,0 +1,25 @@
+[Info  - 1:17:05 AM] 2025/03/29 01:17:05 Created View (#1)
+	directory=/home/soflyy_cash/DD X
+	view_type="AdHoc"
+	root_dir="file:///home/soflyy_cash/DD%20X"
+	go_version="go version go1.24.1 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/soflyy_cash/.cache/go-build GOMODCACHE:/home/soflyy_cash/gopath/pkg/mod GOPATH:/home/soflyy_cash/gopath:/google/gopath GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/local/go GoVersion:24 GoVersionOutput:go version go1.24.1 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 1:17:05 AM] 2025/03/29 01:17:05 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/soflyy_cash/DD X
+	query=[./ builtin]
+	packages=2
+	duration=270.055761ms
+
+[Info  - 1:17:35 AM] 2025/03/29 01:17:35 background imports cache refresh starting
+
+[Info  - 1:17:35 AM] 2025/03/29 01:17:35 background refresh finished after 7.992271ms
+
+[Info  - 1:28:51 AM] 2025/03/29 01:28:51 Shutdown session
+	shutdown_session=1
+

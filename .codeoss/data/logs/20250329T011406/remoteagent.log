@@ -1,0 +1,60 @@
+2025-03-29 01:14:06.933 [info] 
+
+
+
+
+2025-03-29 01:14:06.956 [info] Extension host agent started.
+2025-03-29 01:14:10.904 [info] [127.0.0.1][31ee5b18][ManagementConnection] New connection established.
+2025-03-29 01:14:11.026 [info] [127.0.0.1][32c825b9][ExtensionHostConnection] New connection established.
+2025-03-29 01:14:13.736 [info] [127.0.0.1][32c825b9][ExtensionHostConnection] <1214> Launched Extension Host Process.
+2025-03-29 01:14:37.033 [info] [127.0.0.1][31ee5b18][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-29 01:14:39.308 [info] [127.0.0.1][290f0472][ManagementConnection] New connection established.
+2025-03-29 01:14:39.309 [info] [127.0.0.1][d15171ec][ExtensionHostConnection] New connection established.
+2025-03-29 01:14:39.316 [info] [127.0.0.1][d15171ec][ExtensionHostConnection] <1273> Launched Extension Host Process.
+2025-03-29 01:14:59.844 [info] [127.0.0.1][290f0472][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-29 01:15:03.410 [info] [127.0.0.1][00dc8b6c][ManagementConnection] New connection established.
+2025-03-29 01:15:03.525 [info] [127.0.0.1][08a2aae0][ExtensionHostConnection] New connection established.
+2025-03-29 01:15:03.533 [info] [127.0.0.1][08a2aae0][ExtensionHostConnection] <1353> Launched Extension Host Process.
+2025-03-29 01:16:13.061 [info] Getting Manifest... panekj.powershell
+2025-03-29 01:16:14.282 [info] Installing extension: panekj.powershell {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/soflyy_cash/.codeoss/extensions/extensions.json","external":"file:///home/soflyy_cash/.codeoss/extensions/extensions.json","path":"/home/soflyy_cash/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-03-23T07:13:37.386Z"}}
+2025-03-29 01:16:20.865 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-03-29 01:16:20.866 [info] Extension signature verification is not done: panekj.powershell
+2025-03-29 01:16:24.506 [info] Extracted extension to file:///home/soflyy_cash/.codeoss/extensions/panekj.powershell-2021.10.0-universal: panekj.powershell
+2025-03-29 01:16:24.517 [info] Renamed to /home/soflyy_cash/.codeoss/extensions/panekj.powershell-2021.10.0-universal
+2025-03-29 01:16:24.532 [info] Extension installed successfully: panekj.powershell file:///home/soflyy_cash/.codeoss/extensions/extensions.json
+2025-03-29 01:16:39.301 [info] Getting Manifest... fabioz.vscode-pydev-python-debugger
+2025-03-29 01:16:40.392 [info] Installing extension: fabioz.vscode-pydev-python-debugger {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/soflyy_cash/.codeoss/extensions/extensions.json","external":"file:///home/soflyy_cash/.codeoss/extensions/extensions.json","path":"/home/soflyy_cash/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-03-23T07:13:37.386Z"}}
+2025-03-29 01:16:43.201 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-03-29 01:16:43.202 [info] Extension signature verification is not done: fabioz.vscode-pydev-python-debugger
+2025-03-29 01:16:44.111 [info] Extracted extension to file:///home/soflyy_cash/.codeoss/extensions/fabioz.vscode-pydev-python-debugger-0.1.0-universal: fabioz.vscode-pydev-python-debugger
+2025-03-29 01:16:44.123 [info] Renamed to /home/soflyy_cash/.codeoss/extensions/fabioz.vscode-pydev-python-debugger-0.1.0-universal
+2025-03-29 01:16:44.142 [info] Extension installed successfully: fabioz.vscode-pydev-python-debugger file:///home/soflyy_cash/.codeoss/extensions/extensions.json
+2025-03-29 01:16:54.595 [info] Getting Manifest... rogalmic.bash-debug
+2025-03-29 01:16:55.391 [info] Installing extension: rogalmic.bash-debug {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/soflyy_cash/.codeoss/extensions/extensions.json","external":"file:///home/soflyy_cash/.codeoss/extensions/extensions.json","path":"/home/soflyy_cash/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-03-23T07:13:37.386Z"}}
+2025-03-29 01:16:57.181 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-03-29 01:16:57.181 [info] Extension signature verification is not done: rogalmic.bash-debug
+2025-03-29 01:16:57.523 [info] Extracted extension to file:///home/soflyy_cash/.codeoss/extensions/rogalmic.bash-debug-0.3.9-universal: rogalmic.bash-debug
+2025-03-29 01:16:57.532 [info] Renamed to /home/soflyy_cash/.codeoss/extensions/rogalmic.bash-debug-0.3.9-universal
+2025-03-29 01:16:57.549 [info] Extension installed successfully: rogalmic.bash-debug file:///home/soflyy_cash/.codeoss/extensions/extensions.json
+2025-03-29 01:19:56.775 [info] [127.0.0.1][32c825b9][ExtensionHostConnection] <1214> Extension Host Process exited with code: 0, signal: null.
+2025-03-29 01:20:09.309 [info] [127.0.0.1][d15171ec][ExtensionHostConnection] <1273> Extension Host Process exited with code: 0, signal: null.
+2025-03-29 01:23:51.180 [info] [127.0.0.1][29c20086][ManagementConnection] New connection established.
+2025-03-29 01:23:51.284 [info] [127.0.0.1][802cabb3][ExtensionHostConnection] New connection established.
+2025-03-29 01:23:51.293 [info] [127.0.0.1][802cabb3][ExtensionHostConnection] <2809> Launched Extension Host Process.
+2025-03-29 01:23:53.546 [info] [127.0.0.1][00dc8b6c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-03-29 01:24:52.733 [info] [127.0.0.1][29c20086][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-29 01:24:55.573 [info] [127.0.0.1][00dc8b6c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-03-29 01:24:55.573 [info] [127.0.0.1][2ab9e31b][ManagementConnection] New connection established.
+2025-03-29 01:24:55.694 [info] [127.0.0.1][9539735e][ExtensionHostConnection] New connection established.
+2025-03-29 01:24:55.699 [info] [127.0.0.1][9539735e][ExtensionHostConnection] <3300> Launched Extension Host Process.
+2025-03-29 01:26:14.969 [info] [127.0.0.1][2ab9e31b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-03-29 01:28:51.729 [info] [127.0.0.1][08a2aae0][ExtensionHostConnection] <1353> Extension Host Process exited with code: 0, signal: null.
+2025-03-29 01:29:55.712 [info] [127.0.0.1][00dc8b6c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-03-29 01:30:04.034 [info] [127.0.0.1][802cabb3][ExtensionHostConnection] <2809> Extension Host Process exited with code: 0, signal: null.
+2025-03-29 02:00:49.117 [info] [127.0.0.1][2ab9e31b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-03-29 02:00:49.118 [info] [127.0.0.1][c635528b][ManagementConnection] New connection established.
+2025-03-29 02:00:49.287 [info] [127.0.0.1][59f73fb3][ExtensionHostConnection] New connection established.
+2025-03-29 02:00:49.293 [info] [127.0.0.1][59f73fb3][ExtensionHostConnection] <3898> Launched Extension Host Process.
+2025-03-29 02:00:55.716 [info] [127.0.0.1][c635528b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-29 02:05:49.297 [info] [127.0.0.1][2ab9e31b][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-03-29 02:05:49.540 [info] [127.0.0.1][9539735e][ExtensionHostConnection] <3300> Extension Host Process exited with code: 0, signal: null.

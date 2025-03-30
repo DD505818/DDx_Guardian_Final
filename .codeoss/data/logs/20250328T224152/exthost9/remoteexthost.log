@@ -1,0 +1,22 @@
+2025-03-28 22:58:24.323 [info] Extension host with pid 2974 started
+2025-03-28 22:58:24.323 [error] Error: EEXIST: file already exists, open '/home/soflyy_cash/.codeoss/data/User/workspaceStorage/33deb043/vscode.lock'
+2025-03-28 22:58:24.327 [info] Lock '/home/soflyy_cash/.codeoss/data/User/workspaceStorage/33deb043/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-03-28 22:58:24.340 [info] Lock '/home/soflyy_cash/.codeoss/data/User/workspaceStorage/33deb043/vscode.lock': The lock does not look stale, elapsed: 335 ms, giving up.
+2025-03-28 22:58:24.349 [info] Lock '/home/soflyy_cash/.codeoss/data/User/workspaceStorage/33deb043-1/vscode.lock': Lock acquired.
+2025-03-28 22:58:24.656 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-28 22:58:24.820 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-28 22:58:25.047 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-28 22:58:25.047 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-28 22:58:25.386 [info] Eager extensions activated
+2025-03-28 22:58:25.387 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 22:58:25.387 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 22:58:25.388 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-03-28 22:58:25.388 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 22:58:25.388 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 22:58:27.524 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 22:58:30.403 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-28 22:58:30.404 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-28 22:58:30.405 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-28 23:08:09.697 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-03-28 23:08:09.699 [info] Lock '/home/soflyy_cash/.codeoss/data/User/workspaceStorage/33deb043-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-03-28 23:08:09.730 [info] Extension host with pid 2974 exiting with code 0

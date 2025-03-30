@@ -1,0 +1,9 @@
+# Build container
+gcloud builds submit --tag 
+gcr.io/diesel-acolyte-455113-u1/vivi-guardian-maximus
+# Deploy to Cloud Run
+gcloud run deploy vivi-guardian-maximus \ 
+  --image 
+  gcr.io/diesel-acolyte-455113-u1/vivi-guardian-maximus 
+  \ --platform managed \ --region us-central1 \
+  --allow-unauthenticated

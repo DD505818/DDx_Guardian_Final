@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: ddx-rl-training-cron
+spec:
+  schedule: "0 0 * * *"  # daily
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: ddx-rl-train
+            image: yourregistry.com/ddx-rl-train:latest
+            imagePullPolicy: Always
+          restartPolicy: OnFailure

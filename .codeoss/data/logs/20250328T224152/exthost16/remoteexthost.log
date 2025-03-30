@@ -1,0 +1,35 @@
+2025-03-28 23:22:07.132 [info] Extension host with pid 6467 started
+2025-03-28 23:22:07.453 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-03-28 23:22:07.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-28 23:22:09.155 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-28 23:22:09.526 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-28 23:22:09.527 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-28 23:22:10.171 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-03-28 23:22:10.225 [info] Eager extensions activated
+2025-03-28 23:22:10.226 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 23:22:10.226 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 23:22:10.227 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 23:22:10.440 [error] Error: IndexedDB database 'vscode-web-db' is closed.
+    at s9.runInTransaction (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3111:1953)
+    at hii.readFile (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3111:10918)
+    at https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3109:101612
+    at $it.I (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3109:101803)
+    at $it.D (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3109:100828)
+    at $it.readFileStream (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3109:100522)
+    at async Tst.M (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3112:24534)
+    at async Tst.readStream (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:3112:24309)
+    at async hue.Db (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1279:11960)
+    at async hue.resolve (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1279:10435)
+2025-03-28 23:22:10.688 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-28 23:22:12.941 [error] Error: command '_codeoss.cloudshell.isIframed' not found
+    at iWe.n (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1341)
+    at iWe.executeCommand (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1273)
+2025-03-28 23:22:12.942 [error] Error: command '_codeoss.cloudshell.isIframed' not found
+    at iWe.n (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1341)
+    at iWe.executeCommand (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1273)
+2025-03-28 23:22:12.942 [error] Error: command '_codeoss.cloudshell.registerMessageListener' not found
+    at iWe.n (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1341)
+    at iWe.executeCommand (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1273)
+2025-03-28 23:22:12.942 [error] Error: command '_codeoss.cloudshell.sendMessage' not found
+    at iWe.n (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1341)
+    at iWe.executeCommand (https://970-cs-05e12146-a064-4048-af24-ae7764f17e01.cs-us-west1-wolo.cloudshell.dev/cde-a91b609b237c676f91aa640427ff6a373c98c033/static/out/vs/code/browser/workbench/workbench.js:1299:1273)

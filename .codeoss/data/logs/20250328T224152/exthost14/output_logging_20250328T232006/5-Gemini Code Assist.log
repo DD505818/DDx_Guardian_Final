@@ -1,0 +1,148 @@
+I0328 23:20:27.388263    6140 serve.go:43] cloudcode_cli (Mar 16 2025 10:36:32 -0700, cl:737377283 baseline:736258458)
+I0328 23:20:27.388584    6140 serve.go:44] Command line: ["/home/soflyy_cash/.cache/cloud-code/cloudcode_cli/cloudcode_cli/a383010/cloudcode_cli" "duet" "-logtostderr"]
+I0328 23:20:27.390659    6140 life_cycle.go:169] Initializing. Architecture: "amd64", Operating system: "linux"
+I0328 23:20:27.545594    6140 configuration.go:184] product updateChannel will be used
+I0328 23:20:27.545666    6140 configuration.go:664] language thresholds: map[]
+I0328 23:20:27.545690    6140 configuration.go:611] dataFileExtensions array: [.csv .tsv .jsonl]
+I0328 23:20:27.545715    6140 configuration.go:875] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d3009d StopSequences:map[] DataFilePromptLines:0}
+I0328 23:20:27.545765    6140 configuration.go:875] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d300bd StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0328 23:20:27.545902    6140 configuration.go:272] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0328 23:20:27.545948    6140 configuration.go:280] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0328 23:20:27.545959    6140 configuration.go:284] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace}
+I0328 23:20:27.545995    6140 configuration.go:286] Configured settings for canCancelRequests: true
+I0328 23:20:27.546005    6140 configuration.go:288] Configured settings for contextPromptOpts: &{Endpoint:}
+I0328 23:20:27.603505    6140 experiments.go:124] Applied experiment flag "Chat__enable_chat_streaming" to chat.enableChatStreaming with value true
+I0328 23:20:27.603538    6140 experiments.go:164] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0328 23:20:27.603554    6140 experiments.go:212] Applied experiment flag "DuetAiLocalRag__include_unit_test_files" to includeUnitTestFile with value false
+I0328 23:20:27.603567    6140 experiments.go:157] Applied experiment flag "GcaCitationBlock__enable_citation_block" to cloudCodeOpts.EnableAdminCitationBlock with value false
+I0328 23:20:27.603579    6140 experiments.go:128] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0328 23:20:27.603594    6140 experiments.go:208] Applied experiment flag "DuetAiLocalRag__include_doc_files" to includeDocFiles with value false
+I0328 23:20:27.603609    6140 experiments.go:149] Applied experiment flag "DuetAICodeTransform__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForTransform with value true
+I0328 23:20:27.603629    6140 experiments.go:153] Applied experiment flag "Chat__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForChat with value true
+I0328 23:20:27.603643    6140 experiments.go:140] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounced_after_fetching" to completionOpts.debouncedAfterFetching with value false
+I0328 23:20:27.603654    6140 experiments.go:172] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0328 23:20:27.603675    6140 experiments.go:168] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0328 23:20:27.603702    6140 experiments.go:240] Applied experiment flag "DuetAiLocalRag__local_rag_tokenization_algorithm" to localRagTokenizationAlgorithm with value 
+I0328 23:20:27.603715    6140 experiments.go:112] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0328 23:20:27.603727    6140 experiments.go:116] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0328 23:20:27.603737    6140 experiments.go:120] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value 450000
+I0328 23:20:27.603747    6140 experiments.go:176] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0328 23:20:27.603764    6140 experiments.go:228] Applied experiment flag "DuetAiLocalRag__top_k_doc_files_to_include" to topKDocFilesToInclude with value 2
+I0328 23:20:27.603788    6140 experiments.go:232] Applied experiment flag "DuetAiLocalRag__top_k_test_files_to_include" to topKTestFilesToInclude with value 2
+I0328 23:20:27.603800    6140 experiments.go:136] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0328 23:20:27.603816    6140 experiments.go:216] Applied experiment flag "DuetAiLocalRag__max_file_search_depth" to maxFileSearchDepth with value 2
+I0328 23:20:27.603833    6140 experiments.go:196] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0328 23:20:27.603846    6140 experiments.go:192] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0328 23:20:27.603861    6140 experiments.go:180] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0328 23:20:27.603873    6140 experiments.go:184] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 4.1943e+06
+I0328 23:20:27.603886    6140 experiments.go:188] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0328 23:20:27.603905    6140 experiments.go:236] Applied experiment flag "DuetAiLocalRag__local_rag_reranking_by_language" to localRAGRerankingByLanguageParam with value 0
+I0328 23:20:27.603926    6140 experiments.go:132] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -100
+I0328 23:20:27.603944    6140 experiments.go:200] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_completion" to multiQueryTailNS with value []
+I0328 23:20:27.603961    6140 experiments.go:204] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_generation" to multiQueryTailNS with value []
+I0328 23:20:27.603977    6140 experiments.go:220] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_doc_prompts" to substringsToIdentifyDocPrompts with value [document comment]
+I0328 23:20:27.604002    6140 experiments.go:224] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_test_prompts" to substringsToIdentifyTestPrompts with value [test]
+I0328 23:20:27.604036    6140 configuration.go:479] Repopulating context cache from document cache
+I0328 23:20:27.604137    6140 tier.go:16] Received tier configuration request: {ProjectID:cloudshell-gca UserDefinedCloudaicompanionProject:true}
+W0328 23:20:27.604208    6140 tokenizer.go:274] Unknown tokenization algorithm , defaulting to whitespace
+I0328 23:20:27.615173    6140 configuration.go:184] product updateChannel will be used
+I0328 23:20:27.615233    6140 configuration.go:664] language thresholds: map[]
+I0328 23:20:27.615254    6140 configuration.go:611] dataFileExtensions array: [.csv .tsv .jsonl]
+I0328 23:20:27.615279    6140 configuration.go:875] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0016f9e0d StopSequences:map[] DataFilePromptLines:0}
+I0328 23:20:27.615313    6140 configuration.go:875] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0016f9e2d StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0328 23:20:27.615362    6140 configuration.go:272] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0328 23:20:27.615380    6140 configuration.go:280] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0328 23:20:27.615389    6140 configuration.go:284] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace}
+I0328 23:20:27.615434    6140 configuration.go:286] Configured settings for canCancelRequests: true
+I0328 23:20:27.615444    6140 configuration.go:288] Configured settings for contextPromptOpts: &{Endpoint:}
+I0328 23:20:27.618605    6140 cloudcode.go:45] Using Cloud Code API
+I0328 23:20:27.622967    6140 client.go:432] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: 989fdbe3-4429-49cf-8c4d-4c374b20b997\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideName":"Code OSS for Cloud Shell","ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.29.0"},"project":"cloudshell-gca","requestId":"cloudcode-737377283-2cba228a-ae5b-49d2-bea4-1c3b684d88ae"}
+I0328 23:20:27.756531    6140 handler.go:159] cancel was requested for: 5, needs to be canceled: true
+I0328 23:20:28.063907    6140 experiments.go:157] Applied experiment flag "GcaCitationBlock__enable_citation_block" to cloudCodeOpts.EnableAdminCitationBlock with value false
+I0328 23:20:28.063941    6140 experiments.go:172] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0328 23:20:28.063955    6140 experiments.go:168] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0328 23:20:28.063969    6140 experiments.go:153] Applied experiment flag "Chat__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForChat with value true
+I0328 23:20:28.063982    6140 experiments.go:149] Applied experiment flag "DuetAICodeTransform__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForTransform with value true
+I0328 23:20:28.064005    6140 experiments.go:212] Applied experiment flag "DuetAiLocalRag__include_unit_test_files" to includeUnitTestFile with value false
+I0328 23:20:28.064018    6140 experiments.go:140] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounced_after_fetching" to completionOpts.debouncedAfterFetching with value false
+I0328 23:20:28.064029    6140 experiments.go:128] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0328 23:20:28.064045    6140 experiments.go:124] Applied experiment flag "Chat__enable_chat_streaming" to chat.enableChatStreaming with value true
+I0328 23:20:28.064060    6140 experiments.go:164] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0328 23:20:28.064074    6140 experiments.go:208] Applied experiment flag "DuetAiLocalRag__include_doc_files" to includeDocFiles with value false
+I0328 23:20:28.064094    6140 experiments.go:240] Applied experiment flag "DuetAiLocalRag__local_rag_tokenization_algorithm" to localRagTokenizationAlgorithm with value 
+I0328 23:20:28.064109    6140 experiments.go:120] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value 450000
+I0328 23:20:28.064123    6140 experiments.go:196] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0328 23:20:28.064134    6140 experiments.go:176] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0328 23:20:28.064153    6140 experiments.go:228] Applied experiment flag "DuetAiLocalRag__top_k_doc_files_to_include" to topKDocFilesToInclude with value 2
+I0328 23:20:28.064171    6140 experiments.go:216] Applied experiment flag "DuetAiLocalRag__max_file_search_depth" to maxFileSearchDepth with value 2
+I0328 23:20:28.064187    6140 experiments.go:116] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0328 23:20:28.064196    6140 experiments.go:112] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0328 23:20:28.064210    6140 experiments.go:136] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0328 23:20:28.064224    6140 experiments.go:192] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0328 23:20:28.064240    6140 experiments.go:232] Applied experiment flag "DuetAiLocalRag__top_k_test_files_to_include" to topKTestFilesToInclude with value 2
+I0328 23:20:28.064254    6140 experiments.go:180] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0328 23:20:28.064265    6140 experiments.go:184] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 4.1943e+06
+I0328 23:20:28.064276    6140 experiments.go:188] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0328 23:20:28.064293    6140 experiments.go:236] Applied experiment flag "DuetAiLocalRag__local_rag_reranking_by_language" to localRAGRerankingByLanguageParam with value 0
+I0328 23:20:28.064303    6140 experiments.go:132] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -100
+I0328 23:20:28.064331    6140 experiments.go:200] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_completion" to multiQueryTailNS with value []
+I0328 23:20:28.064349    6140 experiments.go:204] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_generation" to multiQueryTailNS with value []
+I0328 23:20:28.064364    6140 experiments.go:220] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_doc_prompts" to substringsToIdentifyDocPrompts with value [document comment]
+I0328 23:20:28.064385    6140 experiments.go:224] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_test_prompts" to substringsToIdentifyTestPrompts with value [test]
+I0328 23:20:28.064421    6140 configuration.go:479] Repopulating context cache from document cache
+I0328 23:20:28.064512    6140 handler.go:146] req #5 skipped: context canceled
+W0328 23:20:28.065082    6140 tokenizer.go:274] Unknown tokenization algorithm , defaulting to whitespace
+I0328 23:20:51.890048    6140 conversation.go:859] Starting getChatIDEContext with detected intent: 
+I0328 23:20:51.890112    6140 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0328 23:20:51.890174    6140 ide_context.go:131] Unable to read file at /home/soflyy_cash/.aiexclude
+/home/soflyy_cash
+file:///home/soflyy_cash
+I0328 23:20:51.890190    6140 conversation.go:896] Unable to retrieve excluded files for request #9: open /home/soflyy_cash/.aiexclude: no such file or directory
+I0328 23:20:51.890233    6140 rag_cache.go:973] Retrieving and scoring colocated and open files
+I0328 23:20:51.890243    6140 rag_cache.go:1008] rerankByLangBoost=0
+W0328 23:21:15.500347    6140 server.go:661] unknown method "$/setTrace"
+I0328 23:21:15.519031    6140 handler.go:159] cancel was requested for: 11, needs to be canceled: true
+I0328 23:21:15.542567    6140 configuration.go:184] product updateChannel will be used
+I0328 23:21:15.542646    6140 configuration.go:664] language thresholds: map[]
+I0328 23:21:15.542672    6140 configuration.go:611] dataFileExtensions array: [.csv .tsv .jsonl]
+I0328 23:21:15.542701    6140 configuration.go:875] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0014aa83d StopSequences:map[] DataFilePromptLines:0}
+I0328 23:21:15.542738    6140 configuration.go:875] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0014aa85d StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0328 23:21:15.542826    6140 configuration.go:272] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0328 23:21:15.542850    6140 configuration.go:280] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0328 23:21:15.542859    6140 configuration.go:284] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace}
+I0328 23:21:15.542903    6140 configuration.go:286] Configured settings for canCancelRequests: true
+I0328 23:21:15.542914    6140 configuration.go:288] Configured settings for contextPromptOpts: &{Endpoint:}
+I0328 23:21:15.543973    6140 experiments.go:157] Applied experiment flag "GcaCitationBlock__enable_citation_block" to cloudCodeOpts.EnableAdminCitationBlock with value false
+I0328 23:21:15.544012    6140 experiments.go:172] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0328 23:21:15.544030    6140 experiments.go:168] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0328 23:21:15.544045    6140 experiments.go:153] Applied experiment flag "Chat__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForChat with value true
+I0328 23:21:15.544060    6140 experiments.go:149] Applied experiment flag "DuetAICodeTransform__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForTransform with value true
+I0328 23:21:15.544083    6140 experiments.go:212] Applied experiment flag "DuetAiLocalRag__include_unit_test_files" to includeUnitTestFile with value false
+I0328 23:21:15.544096    6140 experiments.go:140] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounced_after_fetching" to completionOpts.debouncedAfterFetching with value false
+I0328 23:21:15.544109    6140 experiments.go:128] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0328 23:21:15.544126    6140 experiments.go:124] Applied experiment flag "Chat__enable_chat_streaming" to chat.enableChatStreaming with value true
+I0328 23:21:15.544141    6140 experiments.go:164] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0328 23:21:15.544156    6140 experiments.go:208] Applied experiment flag "DuetAiLocalRag__include_doc_files" to includeDocFiles with value false
+I0328 23:21:15.544177    6140 experiments.go:240] Applied experiment flag "DuetAiLocalRag__local_rag_tokenization_algorithm" to localRagTokenizationAlgorithm with value 
+I0328 23:21:15.544208    6140 experiments.go:120] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value 450000
+I0328 23:21:15.544222    6140 experiments.go:196] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0328 23:21:15.544234    6140 experiments.go:176] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0328 23:21:15.544253    6140 experiments.go:228] Applied experiment flag "DuetAiLocalRag__top_k_doc_files_to_include" to topKDocFilesToInclude with value 2
+I0328 23:21:15.544272    6140 experiments.go:216] Applied experiment flag "DuetAiLocalRag__max_file_search_depth" to maxFileSearchDepth with value 2
+I0328 23:21:15.544290    6140 experiments.go:116] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0328 23:21:15.544300    6140 experiments.go:112] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0328 23:21:15.544313    6140 experiments.go:136] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0328 23:21:15.544328    6140 experiments.go:192] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0328 23:21:15.544347    6140 experiments.go:232] Applied experiment flag "DuetAiLocalRag__top_k_test_files_to_include" to topKTestFilesToInclude with value 2
+I0328 23:21:15.544363    6140 experiments.go:180] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0328 23:21:15.544375    6140 experiments.go:184] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 4.1943e+06
+I0328 23:21:15.544396    6140 experiments.go:188] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0328 23:21:15.544416    6140 experiments.go:236] Applied experiment flag "DuetAiLocalRag__local_rag_reranking_by_language" to localRAGRerankingByLanguageParam with value 0
+I0328 23:21:15.544428    6140 experiments.go:132] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -100
+I0328 23:21:15.544445    6140 experiments.go:200] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_completion" to multiQueryTailNS with value []
+I0328 23:21:15.544462    6140 experiments.go:204] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_generation" to multiQueryTailNS with value []
+I0328 23:21:15.544481    6140 experiments.go:220] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_doc_prompts" to substringsToIdentifyDocPrompts with value [document comment]
+I0328 23:21:15.544532    6140 experiments.go:224] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_test_prompts" to substringsToIdentifyTestPrompts with value [test]
+I0328 23:21:15.544571    6140 configuration.go:479] Repopulating context cache from document cache
+I0328 23:21:15.544594    6140 handler.go:146] req #11 skipped: context canceled
+W0328 23:21:15.544745    6140 tokenizer.go:274] Unknown tokenization algorithm , defaulting to whitespace

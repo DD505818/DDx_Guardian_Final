@@ -1,0 +1,13 @@
+# Dockerfile for Edge Inference Bridge with TensorRT
+FROM nvcr.io/nvidia/tensorrt:23.02-py3
+
+WORKDIR /ddx
+# Install any additional packages
+RUN apt-get update && apt-get install -y python3-pip
+RUN pip3 install flask onnx numpy
+
+COPY edge_inference_bridge.py ./
+COPY ddx_model.onnx ./
+
+EXPOSE 8500
+CMD ["python3", "edge_inference_bridge.py", "ddx_model.onnx"]
