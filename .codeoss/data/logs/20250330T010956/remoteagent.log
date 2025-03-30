@@ -8,3 +8,6 @@
 2025-03-30 01:10:00.771 [info] [127.0.0.1][99e1c342][ExtensionHostConnection] New connection established.
 2025-03-30 01:10:01.717 [info] [127.0.0.1][99e1c342][ExtensionHostConnection] <1250> Launched Extension Host Process.
 2025-03-30 01:13:57.010 [info] [127.0.0.1][99e1c342][ExtensionHostConnection] The client has reconnected.
+2025-03-30 01:49:52.918 [info] [127.0.0.1][99e1c342][ExtensionHostConnection] The client has reconnected.
+2025-03-30 01:50:45.453 [info] [127.0.0.1][8e263360][ManagementConnection] The client has reconnected.
+2025-03-30 01:55:35.251 [info] [127.0.0.1][8e263360][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

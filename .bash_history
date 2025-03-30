@@ -116,3 +116,37 @@ gcloud logging read "resource.type=cloud_run_revision AND resource.labels.servic
 gcloud logging read "resource.type=cloud_run_revision AND resource.labels.service_name=vivi-guardian-maximus"   --limit=20 --format="value(textPayload)"
 git config --global user.name "DD505818"
 git config --global user.email "cupidai222@gmail.com"
+chmod +x one_click_backend_deploy.sh
+./one_click_backend_deploy.sh
+ls
+cd ddd
+ls
+cd ddx_producrion_package
+cd ddx_production_package
+ls
+cd scripts 
+ls
+./deploy.sh
+chmod +x one_click_backend_deploy.sh
+./one_click_backend_deploy.sh
+chmod +x one_click_backend_deploy.sh
+./one_click_backend_deploy.sh
+cd /mnt/data
+mkdir DDx_Guardian_Final
+cp *.py *.sh *.json *.js *.yml Dockerfile* DDx_Guardian_Final/
+cp -r frontend_dashboard DDx_Guardian_Final/frontend
+cd DDx_Guardian_Final
+git init
+git add .
+git commit -m "ViVi AI v12 MAXIMUS — Full Guardian + DDx Final Package"
+git branch -M main
+git remote add origin https://github.com/DD505818/DDx_Guardian_Final.git
+git push -u origin main
+git remote set-url origin https://github.com/DD505818/DDx_Guardian_Final.git
+git push -u origin main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull --rebase
+git push
+git branch --set-upstream-to=origin/main main
+git pull --rebase
